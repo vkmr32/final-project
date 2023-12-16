@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Photo</title>
+</head>
+
+<body>
+    <h1>Today's Astronomy Picture!</h1>
+
+    <div id="apod">
+        <% if (apodData && apodData.media_type === 'image') { %>
+            <h2><%= apodData.title %></h2>
+            <img src="<%= apodData.url %>" alt="<%= apodData.title %>">
+        <% } else { %>
+            <p>No image available for today.</p>
+        <% } %>
+    </div>
+
+    <br><br>
+	<a href="/">HOME</a>
+</body>
+
+</html>

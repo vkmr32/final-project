@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "mongo": "^0.1.0",
+    "mongodb": "^6.3.0",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7"
+  },
+  "name": "finalproj",
+  "description": "Team Members - Eric Tran (etran125)",
+  "version": "1.0.0",
+  "main": "projectServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
